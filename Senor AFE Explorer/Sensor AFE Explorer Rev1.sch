@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -142,15 +142,15 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
+<library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:13882/1" library_version="1">
+<symbol name="FRAME_A_L">
 <frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
 </symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
+<symbol name="DOCFIELD">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
@@ -181,7 +181,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_A_L" urn="urn:adsk.eagle:component:13939/1" prefix="FRAME" uservalue="yes" library_version="1">
+<deviceset name="FRAME_A_L" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
@@ -197,11 +197,11 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="analog-devices" urn="urn:adsk.eagle:library:102">
+<library name="analog-devices">
 <description>&lt;b&gt;Analog Devices Components&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SO8" urn="urn:adsk.eagle:footprint:30958/1" library_version="6">
+<package name="SO8">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt; SOP-8L&lt;p&gt;
 Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
@@ -230,7 +230,7 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
-<package name="MSOP08" urn="urn:adsk.eagle:footprint:3781/1" library_version="6">
+<package name="MSOP08">
 <description>&lt;b&gt;8-Lead micro SO&lt;/b&gt; (RM-8)&lt;p&gt;
 Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf</description>
 <wire x1="1.624" y1="1.299" x2="1.624" y2="-1.301" width="0.1524" layer="21"/>
@@ -261,7 +261,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="0.2025" y1="-2.5069" x2="0.4463" y2="-1.65" layer="51"/>
 <rectangle x1="0.8525" y1="-2.5069" x2="1.0963" y2="-1.65" layer="51"/>
 </package>
-<package name="TSSOP8" urn="urn:adsk.eagle:footprint:3860/1" library_version="6">
+<package name="TSSOP8">
 <description>&lt;b&gt;8-Lead Thin Shrink Small Outline Package &lt;/b&gt;&lt;p&gt;
 Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544.pdf</description>
 <wire x1="-0.6" y1="1.4484" x2="0.6" y2="1.4484" width="0.2032" layer="21" curve="180"/>
@@ -289,31 +289,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <rectangle x1="2.25" y1="0.825" x2="3.2" y2="1.125" layer="51"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="SO8" urn="urn:adsk.eagle:package:30987/2" type="model" library_version="6">
-<description>SMALL OUTLINE INTEGRATED CIRCUIT SOP-8L
-Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
-<packageinstances>
-<packageinstance name="SO8"/>
-</packageinstances>
-</package3d>
-<package3d name="MSOP08" urn="urn:adsk.eagle:package:3936/1" type="box" library_version="6">
-<description>8-Lead micro SO (RM-8)
-Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf</description>
-<packageinstances>
-<packageinstance name="MSOP08"/>
-</packageinstances>
-</package3d>
-<package3d name="TSSOP8" urn="urn:adsk.eagle:package:3968/1" type="box" library_version="6">
-<description>8-Lead Thin Shrink Small Outline Package 
-Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544.pdf</description>
-<packageinstances>
-<packageinstance name="TSSOP8"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="OP" urn="urn:adsk.eagle:symbol:3727/1" library_version="6">
+<symbol name="OP">
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
 <wire x1="7.62" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
@@ -326,7 +303,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pin name="IN-" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
 <pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="PWR+-" urn="urn:adsk.eagle:symbol:3726/1" library_version="6">
+<symbol name="PWR+-">
 <text x="1.27" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
@@ -334,7 +311,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AD8542" urn="urn:adsk.eagle:component:4126/4" prefix="IC" library_version="6">
+<deviceset name="AD8542" prefix="IC">
 <description>&lt;b&gt;General-Purpose CMOS Rail-to-Rail Amplifiers&lt;/b&gt;&lt;p&gt;
 Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544.pdf</description>
 <gates>
@@ -354,9 +331,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30987/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="ALTERA CORPORATION" constant="no"/>
@@ -378,9 +352,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3936/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
@@ -402,9 +373,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3968/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="ALTERA CORPORATION" constant="no"/>
@@ -2940,8 +2908,8 @@ Metric Code Size 5664</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="IC1" library="analog-devices" library_urn="urn:adsk.eagle:library:102" deviceset="AD8542" device="R" package3d_urn="urn:adsk.eagle:package:30987/2"/>
+<part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="IC1" library="analog-devices" deviceset="AD8542" device="R"/>
 <part name="TM1" library="nolan-utsa" deviceset="TRIMPOT" device="3386"/>
 <part name="TM2" library="nolan-utsa" deviceset="TRIMPOT" device="3386"/>
 <part name="TM3" library="nolan-utsa" deviceset="TRIMPOT" device="3386"/>
@@ -3178,21 +3146,4 @@ Metric Code Size 5664</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
