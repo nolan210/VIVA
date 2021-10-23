@@ -1,0 +1,35 @@
+Partlist
+
+Exported from v5.brd at 10/22/2021 7:19:14 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package         Library  Position (mm)         Orientation
+
+B1       1043           BATTERY-18650-1 utsa     (50 85)               MR180
+C1       47u            C-WE-5MM        utsa     (61.5 80)             R0
+C2       1u             C0805           utsa     (44 88)               R270
+C3       1u             C0805           utsa     (63.5 85)             R180
+C4       1u             C0805           utsa     (59.5 91.5)           R270
+C5       10u, 1206      C1206           utsa     (22.5 86.5)           R90
+C6       10u, 1206      C1206           utsa     (21.5 78.5)           R270
+C7       1u             C0805           utsa     (50 90.5)             R270
+C8       47u            C-WE-5MM        utsa     (42.5 81.5)           R0
+C9       47u            C-WE-5MM        utsa     (53.5 80)             R0
+C10      1u             C0805           utsa     (56 91)               R270
+D3       1N5819         SOD80C          utsa     (14.5 89)             R180
+D4       1N5819         SOD80C          utsa     (14.5 92)             R180
+F1       0805           F0805           utsa     (39 86.5)             R0
+L1       22u            SRN5040         utsa     (48.5 85)             R0
+L2       22u            SRN5040         utsa     (57.5 86)             R180
+LED1     SBY            CHIPLED_0603    utsa     (26.5 75)             R180
+LED2     CHG            CHIPLED_0603    utsa     (28.5 75)             R180
+R1       1k             R0805           utsa     (24.5 75)             R90
+R2       1k             R0805           utsa     (31 75)               R90
+R3       RPROG          R0805           utsa     (29 88)               R180
+SW1.     OS202013MT5QN1 OS202013MT5QN1  utsa     (8.5 68)              R0
+U2       AMS1117-3.3    SOT223          utsa     (66 90)               R270
+U3       TP4056         SO08-THERMAL    utsa     (27.5 82.5)           R180
+U5       AP1603         SOT23-6         utsa     (53 88)               R180
