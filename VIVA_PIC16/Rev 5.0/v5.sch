@@ -20742,6 +20742,7 @@ grid 5.08 mm</description>
 </sheet>
 <sheet>
 <plain>
+<text x="48.26" y="132.08" size="1.778" layer="91">ATMEGA328PB-AU</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="0" y="0"/>
